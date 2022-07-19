@@ -1,0 +1,65 @@
+.nav {
+    z-index: 999999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9.52rem;
+    height: 23.76rem;
+    background-color: #ffffff;
+}
+
+.nav-top {
+    color: #ffffff;
+    text-align: right;
+    width: 100%;
+    height: 2.1rem;
+    line-height: 2.1rem;
+    background-color: #333333;
+}
+
+.nav-top a {
+    margin-right: .2rem;
+    color: #ffffff;
+}
+
+.nav-middle {
+    position: relative;
+    width: 100%;
+    height: 2.08rem;
+    line-height: 2.08rem;
+    border-bottom: .04rem solid #eeeded;
+}
+
+.nav-middle b {
+    font-weight: 400;
+    margin-left: .4rem;
+    font-size: .56rem;
+    color: #454546;
+}
+
+.nav-middle div {
+    position: absolute;
+    top: 1rem;
+    right: .6rem;
+    width: .3rem;
+    height: .3rem;
+    transform: rotate(45deg);
+    border-right: .06rem solid #cecece;
+    border-top: .06rem solid #cecece;
+}
+
+.nav span {
+    position: absolute;
+    bottom: 2.12rem;
+    left: .52rem;
+    font-size: .48rem;
+    color: #666666;
+}
+
+.nav .span1 {
+    position: absolute;
+    bottom: .88rem;
+    left: .48rem;
+    font-size: .8194rem;
+    color: #333333;
+}

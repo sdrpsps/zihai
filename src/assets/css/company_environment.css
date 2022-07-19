@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+/* 禁用iPhone中Safari的字号自动调整,防止正着放和横着放 */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/* 去除iPhone中默认的input样式 */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    -webkit-appearance: none;
+    resize: none;
+}
+
+
+/* 取消链接高亮  */
+
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* 设置HTML5元素为块 */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+/* 图片自适应 */
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    -ms-interpolation-mode: bicubic;
+    /*为了照顾ie图片缩放失真*/
+}
+
+
+/* 初始化 */
+
+body,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+strong {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:active {
+    color: #f60;
+}
+
+
+/* 按下状态，手机是没有hover只有按下效果 */
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+
+/*# sourceMappingURL=reset.css.map */
+
+.container {
+    padding: 0 0;
+}
+
+body {
+    background-color: #F0F4F7;
+    font-family: PingFang, PingFang-SC-Medium;
+}
+
+.box {
+    height: 0.3rem;
+    background-color: #fff;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.intro {
+    position: relative;
+    background-color: #fff;
+    height: 12rem;
+    margin: 0 0.4rem;
+    margin-top: -0.8rem;
+}
+
+.intro .title {
+    margin: 0 auto;
+    padding-top: 0.72rem;
+    width: 12.26rem;
+    height: 9.6rem;
+}
+
+.intro .title h3 {
+    text-align: center;
+    font-size: 0.64rem;
+    margin-bottom: 0.18rem;
+    font-weight: bold;
+}
+
+.intro .title hr {
+    width: 0.88rem;
+    background: #999999;
+    height: 0.04rem;
+}
+
+.intro .title h5 {
+    color: #CCCCCC;
+    text-align: center;
+    font-size: 0.36rem;
+}
+
+.intro .title article {
+    color: #4f4f50;
+    line-height: 1rem;
+    font-size: 0.48rem;
+    text-align: left;
+}
+
+.pics {
+    padding: 0 0.4rem;
+    margin-top: 0.41rem;
+}
+
+.last {
+    margin-bottom: 2rem;
+}
+
+.bottomtip {
+    height: 4rem;
+    background-color: #373D41;
+    color: #B6B6B6;
+}
+
+.bottomtip .row .link {
+    margin-top: 0.4rem;
+}
+
+.bottomtip .row .link ul li {
+    display: inline-block;
+    text-align: center;
+    height: 48px;
+    width: 162px;
+    line-height: 48px;
+}
+
+.bottomtip .row .link ul li a {
+    font-size: 0.44rem;
+    color: #D7D8D9;
+}
+
+.bottomtip .row .remark {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    background-color: #fff;
+    height: 98px;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer .row img {
+    margin-top: 15px;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.footer .row p {
+    margin-top: 8px;
+    font-size: 0.36rem;
+    color: #565D64;
+}
+
+.footer .row div:nth-child(1) p {
+    color: #13a067;
+}
+
+
+/*# sourceMappingURL=company_environment.css.map */

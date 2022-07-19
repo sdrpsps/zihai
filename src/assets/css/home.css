@@ -1,0 +1,440 @@
+/* banner模块 */
+.banner{
+    width: 100%;
+    height: 13.74rem;
+}
+.banner img{
+    width: 100%;
+    height: 13.74rem;
+}
+/* 功能模块 */
+.function{
+    width: 100%;
+    height: 8.88rem;
+    background-color: #ffffff;
+}
+.function-all{
+    display: flex;
+    justify-content: space-between;
+    height: 4.08rem;
+}
+.function-all img{
+    width: 2.88rem;
+    height: 2.88rem;
+}
+.function-all span{
+    font-size: .44rem;
+    color: #666666;
+    font-weight: 400;
+}
+.function-all div{
+    text-align: center;
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+.function-all div>img{
+    padding-left: .8rem;
+    padding-top: .6rem;
+}
+/* 代理业务模块 */
+.our_product{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 3.2rem;
+    line-height: 2.2rem;
+    background-color: #f0f4f7;
+}
+.our_product b{
+    font-size: .64rem;
+    color: #000000;
+    font-weight: 400;
+}
+.our_product span{
+    position: absolute;
+    bottom: 0;
+    right: 6.48rem;
+    font-size: .4rem;
+    color: #000000;
+}
+.our_product div{
+    width: 2.7rem;
+    height: .02rem;
+    background-color: #d7dcdf;
+}
+.our_product .xian1{
+    position: absolute;
+    top: 1.68rem;
+    left: 3rem;
+}
+.our_product .xian2{
+    position: absolute;
+    top: 1.68rem;
+    right: 3rem;
+}
+/* 腾讯产品 */
+.tencent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 18.44rem;
+    background-color: #f0f4f7;
+}
+.tencent div{
+    position: relative;
+    width: 7rem;
+    height: 5.4rem;
+    background-color: #ffffff;
+}
+.tencent div:nth-child(1) img{
+    width: 4.72rem;
+    height: 1.3rem;
+    position: absolute;
+    top: 1.32rem;
+    left: 1.12rem;
+}
+.tencent div:nth-child(2) img{
+    width: 3.58rem;
+    height: 2.56rem;
+    position: absolute;
+    top: 0.32rem;
+    left: 1.62rem;
+}
+.tencent div:nth-child(3) img{
+    width: 3.5rem;
+    height: .82rem;
+    position: absolute;
+    top: 1.62rem;
+    left: 1.62rem;
+}
+.tencent div:nth-child(4) img{
+    width: 3.08rem;
+    height: 1.02rem;
+    position: absolute;
+    top: 1.62rem;
+    left: 1.82rem;
+}
+.tencent div:nth-child(5) img{
+    width: 3.52rem;
+    height: 2.22rem;
+    position: absolute;
+    top: 0.92rem;
+    left: 1.62rem;
+}
+.tencent div:nth-child(6) img{
+    width: 1.76rem;
+    height: 1.38rem;
+    position: absolute;
+    top: 1.42rem;
+    left: 2.42rem;
+}
+.tencent div b{
+    font-size: .52rem;
+    color: #000000;
+    position: absolute;
+    left: 1.8rem;
+    bottom: 1rem;
+    font-weight: 400;
+}
+.tencent div span{
+    font-size: .32rem;
+    color: #666666;
+    position: absolute;
+    left: 1.7rem;
+    bottom: 0.5rem;
+}
+/* 地图模块 */
+.map{
+    width: 100%;
+    height: 19.44rem;
+    background-color: #262a2d;
+}
+.map .map_top{
+    position: relative;
+    width: 100%;
+    height: 3.36rem;
+}
+.map .map_top b{
+    position: absolute;
+    top: .84rem;
+    left: 3.04rem;
+    font-size: .64rem;
+    color: #e6e5e5;
+}
+.map .map_top span{
+    position: absolute;
+    top: 1.82rem;
+    left: 3.16rem;
+    font-size: .36rem;
+    color: #5c5d5d;
+    word-spacing: 15px;
+}
+.map .map_middle{
+    width: 100%;
+    height: 3.24rem;
+}
+.map .map_middle .container{
+    text-align: center;
+    display: flex;
+    background-color: #262a2d;
+    border-bottom: .04rem dashed #31363a;
+}
+.map_middle .container div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.map .map_middle b{
+    font-size: 1.2rem;
+    color: #11a55b;
+}
+.map .map_middle span{
+    font-size: .4rem;
+    color: #cccccc;
+}
+.map .map_bottom img{
+    width: 12.78rem;
+    height: 10.56rem;
+    padding-top: 1.16rem;
+    padding-left: 1rem;
+}
+/* 全部导航模块 */
+.quanbu{
+    position: relative;
+    width: 100%;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    background-color: chartreuse;
+}
+.quanbu .container{
+    text-align: center;
+    display: flex;
+}
+.quanbu .container b{
+    flex: 1;
+    font-weight: 400;
+    font-size: .48rem;
+    color: #000000;
+}
+.quanbu .container b:nth-child(1){
+    color: #11a55b;
+}
+.quanbu .container div{
+    position: absolute;
+    bottom: 0.05rem;
+    left: 1.32rem;
+    width: 1rem;
+    height: .08rem;
+    border-radius: .08rem;
+    background-color: #11a55b;
+}
+/* 广告模块 */
+.guanggao img{
+    width: 100%;
+    height: 9.26rem;
+}
+.publish{
+    position: relative;
+    margin-top: -0.6rem;
+    width: 100%;
+    height: 2.74rem;
+    background-color: #ffffff;
+}
+.publish .container b{
+    font-size: .6rem;
+    color: #282b31;
+    font-weight: 400;
+}
+.publish .container span{
+    position: absolute;
+    bottom: .28rem;
+    left: .44rem;
+    font-size: .48rem;
+    color: #999999;
+}
+.publish .container .span1{
+    position: absolute;
+    bottom: .28rem;
+    left:10.04rem;
+    font-size: .48rem;
+    color: #666666;
+}
+.kongbai{
+    width: 100%;
+    height: .4rem;
+    background-color: #f0f4f7;
+}
+.enter{
+    position: relative;
+    width: 100%;
+    height: 3.4rem;
+    background-color: #ffffff;
+}
+.enter a{
+    position: absolute;
+    top: 1.02rem;
+    left: 5.02rem;
+    text-align: center;
+    font-size: .52rem;
+    color: #ffffff;
+    display: block;
+    width: 5.44rem;
+    height: 1.48rem;
+    line-height: 1.48rem;
+    border-radius: 1.48rem;
+    background-color: #5add57;
+}
+.xingwen span{
+    left: 6.36rem;
+}
+.anli span{
+    left: 6.22rem;
+}
+.zhifubao{
+    position: relative;
+    width: 100%;
+    height: 10.84rem;
+    background-color: #ffffff;
+}
+.zhifubao img{
+    width: 100%;
+    height: 8.24rem;
+}
+.zhifubao b{
+    position: absolute;
+    bottom: 1.6rem;
+    font-size: .56rem;
+    color: #000000;
+}
+.zhifubao p{
+    font-size: .48rem;
+    color: #666666;
+}
+.riqi{
+    position: relative;
+    border-top:.04rem solid #f0f4f7;
+    width: 100%;
+    height: 2.56rem;
+    background-color: #ffffff;
+}
+.riqi b{
+    position: absolute;
+    top: 0;
+    left: .44rem;
+    font-size: 1.12rem;
+    color: #999999;
+}
+.riqi span{
+    position: absolute;
+    bottom: .48rem;
+    left: .28rem;
+    font-size: .44rem;
+    color: #999999;
+}
+.riqi img{
+    position: absolute;
+    right: .44rem;
+    top: .68rem;
+    width: .9rem;
+    height: .9rem;
+}
+.yuandian{
+    position: relative;
+    width: 100%;
+    height: 2.32rem;
+    background-color: #f0f4f7;
+}
+.yuandian span{
+    display: block;
+    margin-right: .4rem;
+    float: left;
+    width: .36rem;
+    height: .36rem;
+    border-radius: .36rem;
+    border: .04rem solid #cecece;
+}
+.yuandian .lvse{
+    background-color: #11a55b;
+}
+.yuandian div{
+    position: absolute;
+    top: .92rem;
+    left: 6.56rem;
+}
+.hezuo{
+    background-color: #ffffff;
+}
+.hezuo span{
+    left: 6.4rem;
+}
+.zuihou{
+    position: relative;
+    width: 100%;
+    height: 10.6rem;
+    background-color: #ffffff;
+}
+.zuihou img:nth-child(1){
+    position: absolute;
+    top: .28rem;
+    left: .8rem;
+    width: 3.46rem;
+    height: .92rem;
+}
+.zuihou img:nth-child(2){
+    position: absolute;
+    top: -0.36rem;
+    left: 5.76rem;
+    width: 3.48rem;
+    height: 1.88rem;
+}
+.zuihou img:nth-child(3){
+    position: absolute;
+    top: .28rem;
+    left: 11.04rem;
+    width: 2.68rem;
+    height: .88rem;
+}
+.zuihou img:nth-child(4){
+    position: absolute;
+    top: 2.2rem;
+    left: .68rem;
+    width: 3.7rem;
+    height: 2.78rem;
+}
+.zuihou img:nth-child(5){
+    position: absolute;
+    top: 2.64rem;
+    left: 6.5rem;
+    width: 1.88rem;
+    height: 1.5rem;
+}
+.zuihou img:nth-child(6){
+    position: absolute;
+    top: 2.88rem;
+    right: 1.46rem;
+    width: 2.16rem;
+    height: 1.18rem;
+}
+.zuihou img:nth-child(7){
+    position: absolute;
+    top: 5.18rem;
+    left: .74rem;
+    width: 3.66rem;
+    height: 2.06rem;
+}
+.zuihou img:nth-child(8){
+    position: absolute;
+    top: 5rem;
+    left: 5.6rem;
+    width: 3.8rem;
+    height: 2.36rem;
+}
+.zuihou img:nth-child(9){
+    position: absolute;
+    top: 5.8rem;
+    right: 1.6rem;
+    width: 2.38rem;
+    height: 1.02rem;
+}

@@ -1,0 +1,64 @@
+.header-top {
+  position: sticky;
+  top: 0;
+}
+.footer-bot {
+  position: sticky;
+  bottom: 0;
+}
+.content {
+  width: 100%;
+}
+.content .banner {
+  width: 15rem /* 720px -> 15rem */;
+  height: 10rem /* 480px -> 10rem */;
+}
+.content .cerd-list {
+  width: 14.166667rem /* 680px -> 14.166667rem */;
+  height: 2.5625rem /* 123px -> 2.5625rem */;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .cerd-list a {
+  font-size: 0.5rem /* 24px -> .5rem */;
+  line-height: 0.6875rem /* 33px -> .6875rem */;
+  color: #000;
+}
+.content .cerd-list a.active-item {
+  color: #11A55B;
+  border-bottom: 0.083333rem /* 4px -> .083333rem */ solid #11A55B;
+}
+.content .sqs-list {
+  width: 14.166667rem /* 680px -> 14.166667rem */;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content .sqs-list li {
+  text-align: center;
+}
+.content .sqs-list li img {
+  width: 6.416667rem /* 308px -> 6.416667rem */;
+  height: 4.4375rem /* 213px -> 4.4375rem */;
+}
+.content .sqs-list li span {
+  display: block;
+  font-size: 0.416667rem /* 20px -> .416667rem */;
+  line-height: 0.625rem /* 30px -> .625rem */;
+  color: #666666;
+  margin-bottom: 1.041667rem /* 50px -> 1.041667rem */;
+}
+.content .more-team {
+  width: 5.291667rem /* 254px -> 5.291667rem */;
+  height: 1.75rem /* 84px -> 1.75rem */;
+  text-align: center;
+  font-size: 0.541667rem /* 26px -> .541667rem */;
+  line-height: 1.75rem;
+  background-color: #333333;
+  color: white;
+  border-radius: 0.875rem /* 42px -> .875rem */;
+  margin: 1.041667rem /* 50px -> 1.041667rem */ auto 1.666667rem /* 80px -> 1.666667rem */;
+}

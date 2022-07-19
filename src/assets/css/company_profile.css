@@ -1,0 +1,247 @@
+body {
+  background-color: #fff;
+}
+.banner {
+  height: 9.64rem;
+  background: url(../images/company_profile_banner.png) no-repeat;
+  background-size: 100% 9.64rem;
+}
+.aticle {
+  position: relative;
+  height: 12.04rem;
+  background: url(../images/company_profile_text_bg01.png) no-repeat;
+  background-size: 100% 12.04rem;
+}
+.aticle h2 {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+.aticle p {
+  position: absolute;
+  top: 3.34rem;
+  left: 0;
+  font-size: 0.48rem;
+  padding: 0 1rem;
+  line-height: 0.9rem;
+  color: #4f4f50;
+}
+.banner-2 {
+  position: relative;
+  height: 4.6rem;
+  background: url(../images/company_profile_choice.png) no-repeat;
+  background-size: 100% 4.6rem;
+}
+.banner-2 h2 {
+  margin: 0;
+  position: absolute;
+  top: 1.52rem;
+  left: 4.16rem;
+  font-size: 0.92rem;
+  color: #fff;
+}
+.items {
+  width: 100%;
+  height: 11.68rem;
+  margin-top: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* 因为有了换行，此时我们在侧轴上控制子元素的对齐方式我们用 align-content */
+  align-content: center;
+}
+.items .item-box {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.items .item-box .icon {
+  display: block;
+  width: 1.52rem;
+  height: 1.3rem;
+  background: url(../images/company_profile_shys.png) no-repeat;
+  background-size: 1.52rem 1.3rem;
+}
+.items .item-box:nth-child(2) .icon {
+  background-image: url(../images/company_profile_jsys.png);
+}
+.items .item-box:nth-child(3) .icon {
+  background-image: url(../images/company_profile_szys.png);
+}
+.items .item-box:nth-child(4) .icon {
+  background-image: url(../images/company_profile_fwys.png);
+}
+.items .item-box:nth-child(odd) {
+  margin-right: 20%;
+}
+.items .item-box h4 {
+  font-size: 0.56rem;
+  color: #010101;
+  margin: 0;
+  line-height: 1.36rem;
+}
+.items .item-box .text {
+  font-size: 0.44rem;
+  color: #4f4f50;
+  text-align: center;
+}
+.do-more {
+  position: relative;
+  width: 100%;
+  height: 18.88rem;
+  background: url(../images/company_profile_text_bg02.png) no-repeat;
+  background-size: 100% 17.24rem;
+  padding-bottom: 2rem;
+}
+.do-more h2 {
+  position: absolute;
+  top: 2.4rem;
+  left: 50%;
+  font-size: 0.92rem;
+  color: #333;
+  margin: 0 auto;
+  transform: translate(-50%);
+}
+.do-more ul {
+  position: absolute;
+  left: 0;
+  top: 4.32rem;
+  border-radius: 0.2rem;
+  box-shadow: 0.02rem 0.02rem 0.3rem 0 rgba(0, 0, 0, 0.05);
+  height: 12.92rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.48rem;
+  color: #4f4f50;
+  margin: 0 0.4rem;
+  padding: 1.5rem 0.6rem 0;
+}
+.do-more ul li {
+  margin: 0;
+  line-height: 0.88rem;
+  margin-top: 0.3rem;
+  margin-left: 1.16rem;
+}
+.do-more ul li:nth-child(2) {
+  margin-top: 0.72rem;
+}
+.do-more ul li:nth-child(3) {
+  margin-top: 0.48rem;
+}
+.do-more ul li:nth-child(4) {
+  margin-top: 1.36rem;
+}
+.do-more ul li:nth-child(5) {
+  margin-top: 0.8rem;
+}
+.text-3 {
+  position: relative;
+  width: 100%;
+  height: 15.72rem;
+  background: url(../images/company_profile_text_bg03.png) no-repeat;
+  background-size: 100% 15.72rem;
+}
+.text-3 h2 {
+  position: absolute;
+  top: 1.08rem;
+  left: 3.52rem;
+  font-size: 0.72rem;
+  color: #fff;
+  font-weight: normal;
+}
+.text-3 ul {
+  position: absolute;
+  top: 2.6rem;
+  left: 0;
+  width: 13.24rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.8rem 0 1rem;
+}
+.text-3 ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 0.9rem;
+  line-height: 1.84rem;
+  border: 0.02rem solid #fff;
+  background-color: #fff;
+  margin-bottom: 0.6rem;
+}
+.text-3 ul li .icon {
+  display: block;
+  width: 1.28rem;
+  height: 1.2rem;
+  background: url(../images/text_bg03_icon01.png) no-repeat;
+  background-size: 1.28rem 1.2rem;
+  margin-left: 0.52rem;
+}
+.text-3 ul li .text {
+  font-size: 0.56rem;
+  color: #3178e4;
+  padding-left: 0.56rem;
+}
+.text-3 ul li:nth-child(2) .icon {
+  background-image: url(../images/text_bg03_icon02.png);
+}
+.text-3 ul li:nth-child(3) .icon {
+  background-image: url(../images/text_bg03_icon03.png);
+}
+.text-3 ul li:nth-child(4) .icon {
+  background-image: url(../images/text_bg03_icon04.png);
+}
+.container h2 {
+  width: 100%;
+  text-align: center;
+  line-height: 3.8rem;
+  font-size: 0.92rem;
+  color: #333;
+}
+.swiper {
+  text-align: center;
+}
+.swiper img {
+  width: 12.92rem;
+  height: 6.66rem;
+  display: block;
+  margin: 0 auto;
+}
+.swiper h5 {
+  position: relative;
+  width: 12.92rem;
+  margin: 0;
+  color: #303e49;
+  font-size: 0.52rem;
+  font-weight: normal;
+  line-height: 1.4rem;
+  background-color: #e9f0f5;
+  margin: 0 auto;
+}
+.swiper h5::after {
+  display: block;
+  position: absolute;
+  left: 6.16rem;
+  content: '';
+  width: 0;
+  height: 0;
+  border-color: #e9f0f5 transparent transparent transparent;
+  border-style: solid;
+  border-width: 0.3rem;
+}
+.swiper .year {
+  width: 1.8rem;
+  height: 1.76rem;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #75ce66;
+  font-size: 0.52rem;
+  line-height: 1.76rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.36rem;
+  margin-top: 0.8rem;
+}

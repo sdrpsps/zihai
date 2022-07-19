@@ -1,0 +1,376 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    div {
+        box-sizing: border-box;
+    }
+    /* 解决方案模块 */
+    
+    .solution {
+        width: 100%;
+        height: 16.6rem;
+        background-color: #fff;
+        padding-bottom: 1rem;
+        *border: 1px solid red;
+    }
+    
+    .solution-hd {
+        height: 5.3rem;
+        background: url(../images/programme_details_banner.png) no-repeat;
+        background-size: 100% 5.3rem;
+        background-color: blue;
+    }
+    
+    .solution-hd h3 {
+        font-size: .68rem;
+        height: 2.8rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 5rem;
+        padding-bottom: .3rem;
+        *background-color: pink;
+    }
+    
+    .solution-hd span {
+        display: block;
+        height: 0.52rem;
+        font-size: .44rem;
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 0.0133rem 0.0133rem rgba(0, 0, 0, .1);
+        *background-color: purple;
+    }
+    
+    .solution-hd h3,
+    .solution-hd span {
+        color: #fff;
+    }
+    
+    .solution-bd {
+        height: 10.4rem;
+        *background-color: skyblue;
+    }
+    
+    .solution-bd h3 {
+        text-align: center;
+        font-size: .68rem;
+        position: relative;
+        color: #2e2e2e;
+        padding: 0.6667rem 0.56rem 0.8rem 0.56rem;
+    }
+    
+    .solution-bd h3::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 1.95rem;
+        left: 50%;
+        width: .9rem;
+        height: .02rem;
+        background: #c0c0c0;
+        transform: translate(-50%);
+    }
+    
+    .solution-bd p {
+        font-size: .48rem;
+        line-height: 1rem;
+        padding: 0 .68rem;
+        color: #525254;
+    }
+    /* 我们的服务模块 */
+    
+    .our_service {
+        height: 21.85rem;
+        background-color: #fff;
+        padding-bottom: .6rem;
+        *margin-top: 1rem;
+    }
+    
+    .serv-hd {
+        height: 2.6rem;
+        background: url(../images/sev_title.png) no-repeat;
+        background-size: 100% 2.6rem;
+        font-size: .72rem;
+        text-align: center;
+        line-height: 2.6rem;
+        *padding-top: 1rem;
+    }
+    
+    .serv-bd {
+        display: flex;
+        margin-top: -0.6rem;
+        height: 18.6rem;
+        background-color: transparent;
+        *background-color: skyblue;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .serv-bd div {
+        width: 100%;
+        height: 3.5rem;
+        background-color: purple;
+    }
+    
+    .serv-bd div:nth-child(1) {
+        background: url(../images/interaction.png) no-repeat top;
+        background-size: 100% 3.5rem;
+    }
+    
+    .serv-bd div:nth-child(2) {
+        background: url(../images/computer.png) no-repeat top;
+        background-size: 100% 3.5rem;
+    }
+    
+    .serv-bd div:nth-child(3) {
+        background: url(../images/code_table.png) no-repeat;
+        background-size: 100% 3.5rem;
+    }
+    
+    .serv-bd div:nth-child(4) {
+        background: url(../images/code_symbol.png) no-repeat;
+        background-size: 100% 3.5rem;
+    }
+    
+    .serv-bd div:nth-child(5) {
+        background: url(../images/customer_serv.png) no-repeat;
+        background-size: 100% 3.5rem;
+    }
+    
+    .bd-box {
+        position: relative;
+        font-size: 0.16rem;
+    }
+    
+    .bd-box h4,
+    p {
+        color: #fff;
+    }
+    
+    .bd-box h4 {
+        position: absolute;
+        display: block;
+        top: 1.05rem;
+        left: 3.9rem;
+        font-size: .4rem;
+    }
+    
+    .bd-box p {
+        position: absolute;
+        display: block;
+        top: 1.76rem;
+        left: 3.88rem;
+        font-size: .32rem;
+    }
+    /* 解决案例模块 */
+    
+    .solve_case {
+        height: 10.5rem;
+        background-color: #fff;
+    }
+    
+    .sc-hd {
+        background-color: #333333;
+        height: 7.14rem;
+    }
+    
+    .sc-hd h3 {
+        position: relative;
+        height: 0.4rem;
+        font-size: .6rem;
+        color: #fff;
+        text-shadow: 0.0133rem 0.0133rem rgba(0, 0, 0, .2);
+        text-align: center;
+        padding-top: 1.3rem;
+        font-weight: 300;
+    }
+    
+    .sc-hd h3::before {
+        content: "";
+        position: absolute;
+        top: 1.75rem;
+        left: 2.5rem;
+        width: 1.2rem;
+        height: 0.0133rem;
+        background-color: red;
+    }
+    
+    .sc-hd h3::after {
+        content: "";
+        position: absolute;
+        top: 1.75rem;
+        right: 2.5rem;
+        width: 1.2rem;
+        height: 0.0133rem;
+        background-color: red;
+    }
+    
+    .sc-bd {
+        height: 8.06rem;
+        margin-top: -4.8rem;
+        background: url(../images/programme_details_computer.png) no-repeat;
+        background-size: 100% 8.06rem;
+        *background-color: purple;
+    }
+    /* 高端定制流程 */
+    
+    .high-end-custom {
+        height: 19.3rem;
+        background-color: #fff;
+        padding-top: 1.3rem;
+    }
+    
+    .hec-hd {
+        height: 2.6rem;
+        *background-color: purple;
+        text-align: center;
+        font-size: .72rem;
+        line-height: 2.6rem;
+    }
+    
+    .hec-bd {
+        height: 15.4rem;
+        *background-color: yellow;
+    }
+    
+    .function-requir {
+        position: relative;
+        height: 9.44rem;
+        padding: 0 .1rem;
+        *background-color: skyblue;
+    }
+    
+    .function-requir img {
+        width: 100%;
+        height: 9.74rem;
+        margin-top: -0.3rem;
+    }
+    
+    .function-requir::before {
+        content: "确认网站需求";
+        display: block;
+        position: absolute;
+        top: .8rem;
+        left: 3.2rem;
+        font-size: .6rem;
+        color: #fff;
+    }
+    
+    .making {
+        height: 6rem;
+        width: 13rem;
+        margin-left: .6rem;
+        *background-color: skyblue;
+        font-size: .6rem;
+    }
+    
+    .making div {
+        position: relative;
+        height: 2.3rem;
+        border: .02rem solid #dbdee7;
+        margin-top: .3rem;
+        line-height: 2.3rem;
+        padding-left: 2.72rem;
+        color: #363636;
+    }
+    
+    .making div:nth-child(1):before {
+        content: "";
+        position: absolute;
+        width: 1rem;
+        height: 1.6rem;
+        top: .5rem;
+        left: .70rem;
+        background: url(../images/process_phone.png) no-repeat;
+        background-size: 1rem 1.6rem;
+    }
+    
+    .making div:nth-child(1)::after,
+    .making div:nth-child(2)::after {
+        content: "";
+        position: absolute;
+        top: 0.85rem;
+        right: .8rem;
+        width: .4rem;
+        height: .4rem;
+        border-left: .04rem solid #c1c8d2;
+        border-bottom: .04rem solid #c1c8d2;
+        transform: rotate(-45deg);
+    }
+    
+    .making div:nth-child(2):before {
+        content: "";
+        position: absolute;
+        width: 1.3rem;
+        height: 1rem;
+        top: .7rem;
+        left: .55rem;
+        background: url(../images/process_computer.png) no-repeat;
+        background-size: 1.3rem 1rem;
+    }
+    /* 更多案例模块 */
+    
+    .more-case {
+        margin-top: .4rem;
+        height: 19.8rem;
+        background-color: #fff;
+        padding-top: .7rem;
+        padding-bottom: 1.44rem;
+    }
+    
+    .case-hd {
+        height: 1.6rem;
+        *background-color: plum;
+        font-size: .72rem;
+        text-align: center;
+        line-height: 1.6rem;
+        color: #333333;
+    }
+    
+    .case-bd {
+        display: flex;
+        margin-top: .5rem;
+        height: 13rem;
+        background-color: #fff;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .case-bd div {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+    
+    .case-bd div img {
+        height: 4.16rem;
+    }
+    
+    .case-bd div h3 {
+        margin-top: -0.14rem;
+        font-size: .6rem;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    .case-bd div span {
+        display: block;
+        font-size: .44rem;
+        color: #aaaaaa;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .case-button div {
+        width: 5.4rem;
+        height: 1.5rem;
+        border-radius: 1rem;
+        font-size: .52rem;
+        background-color: blue;
+        text-align: center;
+        line-height: 1.5rem;
+        color: #fff;
+        background: -webkit-linear-gradient(left, #7fda68, #56ba79);
+        margin: 35px auto;
+    }
